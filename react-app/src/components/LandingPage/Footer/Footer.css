@@ -1,0 +1,20 @@
+/* src/components/LandingPage/Footer/Footer.css */
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  position: relative;
+}
+
+footer>section:last-child {
+  display: flex;
+}
+
+footer i {
+  font-size: larger;
+}
+
+footer figure:hover {
+  cursor: pointer;
+}

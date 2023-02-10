@@ -1,0 +1,100 @@
+/* src/components/SettingModal/SettingModal.css */
+
+section.setting-modal {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 5rem;
+}
+
+/* Top Section: Search Setting */
+figure.exit.container {
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  position: absolute;
+}
+
+figure.exit.container:hover {
+  cursor: pointer;
+}
+
+section.setting>h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset.sem {
+  flex-direction: column;
+}
+
+fieldset.sem figure {
+  font-size: 1.25rem;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+fieldset.sem input[type=radio] {
+  transform: scale(1.5);
+}
+
+fieldset.sem input[type=radio]:checked {
+  accent-color: #A67C52;
+}
+
+fieldset.sem input[type=radio]:not(:checked):hover {
+  cursor: pointer;
+}
+
+fieldset.sem label {
+  padding-left: 24px;
+  padding-right: 0;
+  margin: 0;
+}
+
+/*
+  Media Queries
+*/
+@media only screen and (max-device-width: 768px) {
+
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  section.setting-modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    margin: 0;
+    padding: 5rem;
+    box-sizing: border-box;
+  }
+
+  fieldset.sem>figure * {
+    font-size: 32px;
+  }
+
+  section.contact.setting {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  figure.exit.container>i {
+    font-size: 3rem;
+  }
+
+  .setting-modal>section.contact {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .setting-modal>section.contact {
+    display: none;
+  }
+}

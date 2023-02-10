@@ -1,0 +1,129 @@
+/* src/components/LandingPage/Search/Search.css */
+
+/* Search Section */
+section.search.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Search */
+form.top.search {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 100%;
+  grid-gap: 10px;
+}
+
+input.search-box {
+  border: 2px solid black;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+figure.mg.container {
+  height: 100%;
+  width: 100%;
+}
+
+figure.mg.container:hover {
+  cursor: pointer;
+}
+
+.figure.mg.container>i {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+figure.sei.large {
+  color: white;
+  background: #A67C52;
+  padding: 6px 1vw;
+  border-radius: 0;
+  text-align: center;
+}
+
+/* Lower Search */
+figure.sei {
+  color: #A67C52;
+  padding: 0;
+  margin: 0;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure.sei:hover {
+  cursor: pointer;
+}
+
+/*
+  Lower Search
+*/
+
+fieldset {
+  border: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+fieldset.ses figure {
+  font-size: 1.25rem;
+}
+
+fieldset.ses figure:nth-child(1) {
+  margin-left: 0;
+}
+
+fieldset.ses input[type=radio] {
+  transform: scale(1.5);
+}
+
+fieldset.ses input[type=radio]:checked {
+  accent-color: #A67C52;
+}
+
+fieldset.ses input[type=radio]:not(:checked):hover {
+  cursor: pointer;
+}
+
+fieldset.ses label {
+  padding-left: 6px;
+  padding-right: 0;
+  margin: 0;
+}
+
+/*
+  Media Queries
+*/
+@media (min-width:320px) and (max-width:1500px) {
+
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  figure.sei.small {
+    visibility: visible;
+    font-size: 4.5vw;
+    width: 70%;
+  }
+
+  figure.sei.large {
+    display: none;
+  }
+}
+
+@media (min-width:1501px) {
+
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  figure.sei.small {
+    display: none;
+  }
+
+  figure.sei.large {
+    visibility: visible;
+    font-size: 2rem;
+  }
+}
