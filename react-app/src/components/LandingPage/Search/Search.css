@@ -113,6 +113,10 @@ fieldset.ses label {
   figure.sei.large {
     display: none;
   }
+
+  fieldset.ses * {
+    font-size: 3vw;
+  }
 }
 
 @media (min-width:1501px) {

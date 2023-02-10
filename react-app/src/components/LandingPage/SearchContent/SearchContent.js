@@ -75,7 +75,10 @@ const SearchContent = () => {
           </>
           :
           <>
-            <span>Enter your search result above</span>
+            <span
+              className="empty-search-query"
+            >
+              Enter your search result above</span>
           </>
       }
 

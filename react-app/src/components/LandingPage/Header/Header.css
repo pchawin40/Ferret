@@ -12,3 +12,22 @@
   height: auto;
   object-fit: contain;
 }
+
+/*
+  Media Queries
+*/
+@media (min-width:320px) and (max-width:1000px) {
+
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  section.logo-header img {
+    width: 50%;
+  }
+}
+
+@media (min-width:1001px) and (max-width:1500px) {
+
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  section.logo-header img {
+    width: 35%;
+  }
+}
