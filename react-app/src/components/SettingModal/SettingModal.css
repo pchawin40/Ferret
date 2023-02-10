@@ -64,7 +64,7 @@ fieldset.sem label {
 
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   section.setting-modal {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     background-color: white;
     margin: 0;
