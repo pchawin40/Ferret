@@ -2,7 +2,8 @@
 
 .logo-header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
@@ -21,6 +22,10 @@
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   section.logo-header img {
     width: 50%;
+  }
+
+  section.logo-header h2 {
+    font-size: 26px;
   }
 }
 
