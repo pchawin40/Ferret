@@ -100,6 +100,21 @@ const Search = () => {
               Stack Overflow
             </label>
           </figure>
+
+          {/* YouTube */}
+          <figure>
+            <input
+              type="radio"
+              name="search-engine"
+              value="youtube"
+              onClick={_ => setCurrentSearchProvider("youtube")}
+            />
+            <label
+              for="youtube"
+            >
+              YouTube
+            </label>
+          </figure>
         </fieldset>
       </section>
     </section>

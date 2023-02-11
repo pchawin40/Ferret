@@ -47,6 +47,9 @@ const SearchContent = () => {
       } else if (currentSearchProvider === "stack-overflow") {
         parsedSearchQuery = searchQuery.split(" ").join("+");
         setCurrentSource(`https://www.stackoverflow.com/search/?q=${parsedSearchQuery}`);
+      } else if (currentSearchProvider === "youtube") {
+        parsedSearchQuery = searchQuery.split(" ").join("+");
+        setCurrentSource(`https://www.youtube.com/results?search_query=${parsedSearchQuery}`);
       }
     } else {
       setCurrentSource("");
