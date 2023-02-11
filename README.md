@@ -61,10 +61,6 @@ Usage
 
 (Screenshot 1)
 
-![Ferret](https://res.cloudinary.com/dfz7bzhoi/image/upload/v1676071240/Ferret/Live_Desktop_View_lyhgij.png)
-
-(Screenshot 2)
-
-![Ferret_2](https://res.cloudinary.com/dfz7bzhoi/image/upload/v1676072437/Ferret/Live_Desktop_View2_zyegje.png)
+![Ferret](https://res.cloudinary.com/dfz7bzhoi/image/upload/v1676075836/Ferret/Live_Desktop_View_lbq2xd.png)
 
 Thank you for viewing!
