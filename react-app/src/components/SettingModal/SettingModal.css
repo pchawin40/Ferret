@@ -12,14 +12,7 @@ section.setting-modal {
 
 /* Top Section: Search Setting */
 figure.exit.container {
-  top: 0;
-  right: 0;
   margin: 1rem;
-  position: absolute;
-}
-
-figure.exit.container:hover {
-  cursor: pointer;
 }
 
 section.setting>h1 {
@@ -64,11 +57,13 @@ fieldset.sem label {
 
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   section.setting-modal {
-    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     width: 100vw;
     background-color: white;
     margin: 0;
-    padding: 5rem;
     box-sizing: border-box;
   }
 
@@ -96,5 +91,15 @@ fieldset.sem label {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .setting-modal>section.contact {
     display: none;
+  }
+
+  figure.exit.container {
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  figure.exit.container:hover {
+    cursor: pointer;
   }
 }
