@@ -53,38 +53,6 @@ fieldset.sem label {
 /*
   Media Queries
 */
-@media only screen and (max-device-width: 768px) {
-
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  section.setting-modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: white;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  fieldset.sem>figure * {
-    font-size: 32px;
-  }
-
-  section.contact.setting {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  figure.exit.container>i {
-    font-size: 3rem;
-  }
-
-  .setting-modal>section.contact {
-    display: block;
-  }
-}
 
 @media (min-width: 768px) {
 
