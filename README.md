@@ -1,6 +1,6 @@
 # **Ferret Project**
 
-Welcome to the **[Ferret Repo](https://github.com/pchawin40/Ferret)**, this is an open-source project. **Ferret** is a web application that allows user to bypass the homepage of popular search engines (e.g. Google, Reddit, Stack Overflow, Quora) and allows users to type their desire search query then going straight to the results. For developers wishing to contribute to the project, this project uses front end technologies such as React and Redux. If there is any search engine you wish to be added, the component to add your desire search engine is under **Search** and **SearchContent** components.
+Welcome to the **[Ferret Repo](https://github.com/pchawin40/Ferret)**, this is an open-source project. **Ferret** is a web application that allows user to bypass the homepage of popular search engines (e.g. Google, Reddit, Stack Overflow, Quora, YouTube) and allows users to type their desire search query then going straight to the results. For developers wishing to contribute to the project, this project uses front end technologies such as React and Redux. If there is any search engine you wish to be added, the component to add your desire search engine is under **Search** and **SearchContent** components.
 
 # Table of Content
 - [Technologies Used](#techonologies-used)
